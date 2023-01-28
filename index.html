@@ -11,15 +11,33 @@
 
 	<h1>Změna tříd, události</h1>
 
-	<div class="ctverecek zluty"></div>
+	<div class="oddil__text">
+		<p class="odstavec cerveny">V elipse spí lev.</p>
+	</div>
+
+	<div class="oddil__button">
+		<button onclick="changeColor()" class="button__add">Červené po kliknutí</button>
+		<button onclick="increaseFont()" class="button__add">Větší po kliknutí</button>
+	</div>
+	<!--<div class="ctverecek zluty"></div>
 
 	<div class="ctverecek zeleny"></div>
 
-	<img class="obrazek" src="obrazky/kocka.jpg">
+	<img class="obrazek" src="obrazky/kocka.jpg">-->
 
-	<button class="tlacitko">Čudlajs</button>
+	<div class="player__button">
+		<button onclick="spustAudio()" class="tlacitko">play ▶</button>
+		<button onclick="zastavAudio()" class="tlacitko">pause ||</button>
+		<button onclick="resetAudio()" class="tlacitko">reset ◼</button>
+	</div>
+	<div class="player__button">
+		<button onclick="muteAudio()" class="tlacitko">volume 🔈</button>
+		<button onclick="halfMuteAudio()" class="tlacitko">volume 🔉</button>
+		<button onclick="unmuteAudio()" class="tlacitko">volume 🔊</button>
+	</div>
 
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
+	<audio class="prehravac" src="audio/dingdingdang.mp3" preload="auto"></audio>
 
+	<script src="main.js"></script>
 </body>
 </html>

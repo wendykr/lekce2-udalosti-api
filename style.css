@@ -121,3 +121,54 @@ li {
 	color: black;
 	border-color: blue;
 }
+
+/** tady je místo pro můj kód **/
+
+.player__button {
+	display: block;
+	margin-top: 50px;
+}
+
+.tlacitko {
+	font-size: 20px;
+	padding: 10px 30px;
+}
+
+.tlacitko:hover {
+	background-color: #E64681;
+}
+
+.oddil__text {
+	display: inline-block;
+	margin: 10px 0;
+	padding: 10px;
+	border: dashed 1px #ccc;
+	background-color: #f5f5f5;
+}
+
+.odstavec {
+	font-size: 16px;
+	color: black;
+}
+
+.cervena {
+	color: red;
+}
+
+.oddil__button {
+	margin: 10px 0;
+}
+
+.button__add {
+	display: inline-block;
+	padding: 10px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #13529e;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button__add:hover {
+	background-color: #083872;
+}
